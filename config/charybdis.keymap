@@ -30,12 +30,12 @@
             trackball-bindings = <&tmv_coarse>;
         };
 
-        layer_2 {
+        layer_1 {
             bindings = <
 &trans           &kp SCROLLLOCK   &kp PG_UP        &kp UP           &kp PAGE_DOWN    &none                 &none            &none            &trans           &trans           &trans          &trans
 &trans           &kp CAPS         &kp LEFT_ARROW   &kp DOWN         &kp RIGHT_ARROW  &none                 &none            &none            &trans           &trans           &trans          &trans
 &trans           &kp KP_NUMLOCK   &kp HOME         &kp PRINTSCREEN  &kp END          &none                 &none            &none            &trans           &trans           &trans          &trans
-&trans           &kp LCTRL        &kp LALT     &kp LGUI     &none            &none                 &none            &none            &kp RGUI    &kp RALT    &kp RCTRL       &trans
+&trans           &kp LCTRL        &kp LALT         &kp LGUI         &none            &none                 &none            &none            &kp RGUI         &kp RALT         &kp RCTRL       &trans
                                                    &trans           &trans           &trans                &trans           &trans
                                                                     &trans           &trans                &trans
             >;
