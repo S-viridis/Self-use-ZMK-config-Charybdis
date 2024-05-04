@@ -40,38 +40,5 @@
                                                                     &trans           &trans                &trans
             >;
         };
-
-        layer_3 {
-            bindings = <
-&trans           &kp INSERT       &kp LBKT         &kp SQT          &kp RBKT         &none                 &none            &kp F9           &kp F10          &kp F11          &kp F12         &trans
-&trans           &kp MINUS        &kp COMMA        &kp SEMI         &kp DOT          &none                 &none            &kp F5           &kp F6           &kp F7           &kp F8          &trans
-&trans           &kp EQUAL        &kp BSLH         &kp GRAVE        &kp FSLH         &none                 &none            &kp F1           &kp F2           &kp F3           &kp F4          &trans
-&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans          &trans
-                                                   &none            &trans           &trans                &trans           &trans
-                                                                    &none            &trans                &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N7           &kp N8           &kp N9           &kp KP_EQUAL    &trans
-&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N4           &kp N5           &kp N6           &kp N0          &trans
-&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N1           &kp N2           &kp N3           &kp KP_DOT      &trans
-&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans          &trans
-                                                   &none            &trans           &trans                &trans           &trans
-                                                                    &none            &trans                &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans           &kp PAUSE_BREAK  &trans           &trans           &trans           &trans                &trans           &kp F21          &kp F22          &kp F23          &kp F24         &trans
-&trans           &trans           &trans           &trans           &trans           &trans                &trans           &kp F17          &kp F18          &kp F19          &kp F20         &trans
-&trans           &trans           &trans           &trans           &trans           &trans                &trans           &kp F13          &kp F14          &kp F15          &kp F16         &trans
-&trans           &trans           &trans           &trans           &trans           &trans                &trans           &trans           &trans           &trans           &trans          &trans
-                                                   &none            &trans           &trans                &trans           &trans
-                                                                    &none            &trans                &trans
-            >;
-        };
     };
 };
