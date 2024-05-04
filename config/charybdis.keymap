@@ -43,9 +43,9 @@
 
         layer_2 {
             bindings = <
-&trans           &kp SCROLLLOCK   &kp PG_UP        &kp UP           &kp PAGE_DOWN    &none                 &none            &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9     &kp KP_EQUAL    &trans
-&trans           &kp CAPS         &kp LEFT_ARROW   &kp DOWN         &kp RIGHT_ARROW  &none                 &none            &kp NUMBER_4     &kp NUMBER_5     &kp NUMBER_6     &kp NUMBER_0    &trans
-&trans           &kp KP_NUMLOCK   &kp HOME         &kp PRINTSCREEN  &kp END          &none                 &none            &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp KP_DOT      &trans
+&trans           &kp SCROLLLOCK   &kp PG_UP        &kp UP           &kp PAGE_DOWN    &none                 &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL    &trans
+&trans           &kp CAPS         &kp LEFT_ARROW   &kp DOWN         &kp RIGHT_ARROW  &none                 &none            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0 &trans
+&trans           &kp KP_NUMLOCK   &kp HOME         &kp PRINTSCREEN  &kp END          &none                 &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT      &trans
 &trans           &kp LCTRL        &kp LEFT_ALT     &kp LEFT_GUI     &none            &none                 &none            &none            &kp RIGHT_GUI    &kp RIGHT_ALT    &kp RCTRL       &trans
                                                    &trans           &trans           &trans                &trans           &trans
                                                                     &trans           &trans                &trans
@@ -65,9 +65,9 @@
 
         layer_4 {
             bindings = <
-&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N7        &kp N8        &kp N9        &kp KP_EQUAL    &trans
-&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N4        &kp N5        &kp N6        &kp N0       &trans
-&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N1        &kp N2        &kp N3        &kp KP_DOT      &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N7           &kp N8           &kp N9           &kp KP_EQUAL    &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N4           &kp N5           &kp N6           &kp N0          &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &kp N1           &kp N2           &kp N3           &kp KP_DOT      &trans
 &trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans          &trans
                                                    &none            &trans           &trans                &trans           &trans
                                                                     &none            &trans                &trans
