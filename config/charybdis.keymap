@@ -30,17 +30,6 @@
             trackball-bindings = <&tmv_coarse>;
         };
 
-        layer_1 {
-            bindings = <
-&trans           &to 16           &to 15           &to 14           &to 13           &none                 &none            &to 29           &to 30           &to 31           &none            &trans
-&trans           &to 12           &to 11           &to 10           &to 9            &none                 &none            &to 25           &to 26           &to 27           &to 28           &trans
-&trans           &to 8            &to 7            &to 6            &to 6            &none                 &none            &to 21           &to 22           &to 23           &to 24           &trans
-&trans           &to 6            &to 3            &to 2            &to 0            &none                 &none            &to 17           &to 18           &to 19           &to 20           &trans
-                                                   &none            &trans           &trans                &trans           &trans
-                                                                    &none            &trans                &trans
-            >;
-        };
-
         layer_2 {
             bindings = <
 &trans           &kp SCROLLLOCK   &kp PG_UP        &kp UP           &kp PAGE_DOWN    &none                 &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL    &trans
