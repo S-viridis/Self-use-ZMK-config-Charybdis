@@ -32,7 +32,7 @@
 
         layer_1 {
             bindings = <
-&trans           &sys_reset       &to 15           &to 14           &to 13           &none                 &none            &none            &none            &none            &bootloader      &trans
+&trans           &bootloader      &to 15           &to 14           &to 13           &none                 &none            &none            &none            &none            &bootloader      &trans
 &trans           &to 12           &to 11           &to 10           &to 9            &none                 &none            &none            &none            &none            &none            &trans
 &trans           &to 8            &to 7            &to 6            &to 6            &none                 &none            &none            &none            &none            &none            &trans
 &trans           &to 6            &to 3            &to 2            &to 0            &none                 &none            &none            &none            &none            &none            &trans
