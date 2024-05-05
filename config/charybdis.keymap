@@ -51,5 +51,16 @@
                                                                     &trans           &trans                &trans
             >;
         };
+
+        layer_3 {
+            bindings = <
+&trans           &kp INSERT       &kp LBKT         &kp SQT          &kp RBKT         &none                 &none            &kp F9           &kp F10          &kp F11          &kp F12          &trans
+&trans           &kp MINUS        &kp COMMA        &kp SEMI         &kp PERIOD       &none                 &none            &kp F5           &kp F6           &kp F7           &kp F8           &trans
+&trans           &kp EQUAL        &kp BSLH         &kp GRAVE        &kp FSLH         &none                 &none            &kp F1           &kp F2           &kp F3           &kp F4           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
     };
 };
