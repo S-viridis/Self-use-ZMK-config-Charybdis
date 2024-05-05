@@ -128,16 +128,5 @@
                                                                     &none            &trans                &trans
             >;
         };
-
-        layer_10 {
-bindings = <
-&trans           &trans           &bt BT_PRV       &trans           &bt BT_NXT       &none                 &none            &trans           &trans           &trans           &trans           &trans
-&trans           &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4          &none            &trans           &trans           &trans           &trans           &trans
-&trans           &bt BT_DISC 0    &bt BT_DISC 1    &bt BT_DISC 2    &bt BT_DISC 3    &bt BT_DISC 4         &none            &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
-                                                   &none            &trans           &trans                &trans           &trans
-                                                                    &none            &trans                &trans
-            >;
-        };
     };
 };
