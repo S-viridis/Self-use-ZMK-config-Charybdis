@@ -6,7 +6,10 @@ if SHIELD_CHARYBDIS_RIGHT
 	config ZMK_SPLIT_BLE_ROLE_CENTRAL
 		default y
 
-	config BT_DIS_MODEL
+	config USB_DEVICE_PRODUCT
+    		default ZMK_KEYBOARD_NAME
+
+	config BT_DEVICE_NAME
     		default ZMK_KEYBOARD_NAME
 
 endif
