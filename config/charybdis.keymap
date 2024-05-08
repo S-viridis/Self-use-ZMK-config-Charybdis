@@ -193,8 +193,7 @@ bindings = <
                                                    &none            &trans           &trans                &trans           &trans
                                                                     &none            &trans                &trans
             >;
-        };
-
             trackball-bindings = <&tsl>;
+        };
     };
 };
