@@ -255,7 +255,7 @@ bindings = <
 
         layer_21 {
             bindings = <
-&trans           &kp F24          &kp F23          &kp F22          &kp F21          &none                 &none            &trans           &trans           &trans           &PAUSE_BREAK     &trans
+&trans           &kp F24          &kp F23          &kp F22          &kp F21          &none                 &none            &trans           &trans           &trans           &kp PAUSE_BREAK     &trans
 &trans           &kp F20          &kp F19          &kp F18          &kp F17          &none                 &none            &trans           &trans           &trans           &trans           &trans
 &trans           &kp F16          &kp F15          &kp F14          &kp F13          &none                 &none            &trans           &trans           &trans           &trans           &trans
 &trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
