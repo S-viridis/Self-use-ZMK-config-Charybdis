@@ -222,7 +222,7 @@ bindings = <
 
         layer_18 {
             bindings = <
-&trans           &kp KP_EQUAL     &kp N9           &kp N8           &kp N7           &none                 &none            &kp PG_DN        &kp UP           &kp PG_UP        &kp SCROLLOCK    &trans
+&trans           &kp KP_EQUAL     &kp N9           &kp N8           &kp N7           &none                 &none            &kp PG_DN        &kp UP           &kp PG_UP        &kp SCROLLLOCK    &trans
 &trans           &kp N0           &kp N6           &kp N5           &kp N4           &none                 &none            &kp RIGHT        &kp DOWN         &kp LEFT         &kp CAPS         &trans
 &trans           &kp KP_DOT       &kp N3           &kp N2           &kp N1           &none                 &none            &kp END          &kp PRINTSCREEN  &kp HOME         &kp KP_NUMLOCK   &trans
 &trans           &kp RCTRL        &kp RALT         &kp RGUI         &none            &none                 &none            &none            &kp LGUI         &kp LALT         &kp LCTRL        &trans
