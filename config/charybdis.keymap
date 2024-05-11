@@ -252,5 +252,128 @@ bindings = <
                                                                     &none            &trans                &trans
             >;
         };
+
+        layer_21 {
+            bindings = <
+&trans           &kp F24          &kp F23          &kp F22          &kp F21          &none                 &none            &trans           &trans           &trans           &PAUSE_BREAK     &trans
+&trans           &kp F20          &kp F19          &kp F18          &kp F17          &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &kp F16          &kp F15          &kp F14          &kp F13          &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_22 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_23 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_24 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_25 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_26 {
+            bindings = <
+&trans           &trans           &bt BT_PRV       &trans           &bt BT_NXT       &none                 &none            &bt BT_NXT       &trans           &bt BT_PRV       &trans           &trans
+&trans           &bt BT_CLR       &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &bt BT_CLR       &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_27 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+
+        layer_28 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_29 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_30 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_31 {
+            bindings = <
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &trans           &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+            trackball-bindings = <&tsl>;
+        };
     };
 };
