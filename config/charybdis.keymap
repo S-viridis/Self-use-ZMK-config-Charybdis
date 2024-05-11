@@ -241,5 +241,27 @@ bindings = <
                                                                     &none            &trans                &trans
             >;
         };
+
+        layer_20 {
+            bindings = <
+&trans           &kp KP_EQUAL     &kp KP_N9        &kp KP_N8        &kp KP_N7        &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &kp KP_N0        &kp KP_N6        &kp KP_N5        &kp KP_N4        &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &kp KP_DOT       &kp KP_N3        &kp KP_N2        &kp KP_N1        &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
+
+        layer_21 {
+            bindings = <
+&trans           &kp kp F24       &kp kp F23       &kp kp F22       &kp kp F21       &none                 &none            &trans           &trans           &trans           &PAUSE_BREAK     &trans
+&trans           &kp kp F20       &kp kp F19       &kp kp F18       &kp kp F17       &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &kp kp F16       &kp kp F15       &kp kp F14       &kp kp F13       &none                 &none            &trans           &trans           &trans           &trans           &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
     };
 };
