@@ -252,16 +252,5 @@ bindings = <
                                                                     &none            &trans                &trans
             >;
         };
-
-        layer_21 {
-            bindings = <
-&trans           &kp kp F24       &kp kp F23       &kp kp F22       &kp kp F21       &none                 &none            &trans           &trans           &trans           &PAUSE_BREAK     &trans
-&trans           &kp kp F20       &kp kp F19       &kp kp F18       &kp kp F17       &none                 &none            &trans           &trans           &trans           &trans           &trans
-&trans           &kp kp F16       &kp kp F15       &kp kp F14       &kp kp F13       &none                 &none            &trans           &trans           &trans           &trans           &trans
-&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
-                                                   &none            &trans           &trans                &trans           &trans
-                                                                    &none            &trans                &trans
-            >;
-        };
     };
 };
