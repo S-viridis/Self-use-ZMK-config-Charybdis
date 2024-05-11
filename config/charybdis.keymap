@@ -195,5 +195,51 @@ bindings = <
             >;
             trackball-bindings = <&tsl>;
         };
+
+        layer_16 {
+            bindings = <
+&kp BSPC         &kp P            &kp O            &kp I            &kp U            &mkp MCLK             &kp DEL          &kp R            &kp E            &kp W            &kp Q            &kp ESC
+&kp ENTER        &kp T            &kp L            &kp K            &kp J            &mkp LCLK             &mo 31           &kp F            &kp D            &kp S            &kp A            &kp TAB
+&kp RSHFT        &kp Y            &kp M            &kp N            &kp B            &mkp RCLK             &trans           &kp V            &kp C            &kp X            &kp Z            &kp LSHFT
+&mo 22           &kp RCTRL        &kp RALT         &kp RGUI         &kp H            &mo 20                &mo 21           &kp G            &kp LGUI         &kp LALT         &kp LCTRL        &mo 7
+                                                   &mo 23           &kp SPACE        &mo 18                &mo 19           &kp SPACE
+                                                                    &mo 24           &to 17                &to 17
+            >;
+
+            trackball-bindings = <&tmv_coarse>;
+        };
+
+        layer_17 {
+            bindings = <
+&trans           &to 1            &to 31           &to 30           &to 29           &none                 &none            &to 29           &to 30           &to 31           &to 1            &trans
+&trans           &to 28           &to 27           &to 26           &to 25           &none                 &none            &to 25           &to 26           &to 27           &to 28           &trans
+&trans           &to 24           &to 25           &to 24           &to 23           &none                 &none            &to 23           &to 24           &to 25           &to 24           &trans
+&trans           &to 20           &to 19           &to 18           &to 16           &bootloader           &bootloader      &to 16           &to 18           &to 19           &to 20           &trans
+                                                   &trans           &trans           &trans                &trans           &trans
+                                                                    &trans           &trans                &trans
+            >;
+        };
+
+        layer_18 {
+            bindings = <
+&trans           &kp KP_EQUAL     &kp N9           &kp N8           &kp N7           &none                 &none            &kp PG_DN        &kp UP           &kp PG_UP        &kp SCROLLLOCK    &trans
+&trans           &kp N0           &kp N6           &kp N5           &kp N4           &none                 &none            &kp RIGHT        &kp DOWN         &kp LEFT         &kp CAPS         &trans
+&trans           &kp KP_DOT       &kp N3           &kp N2           &kp N1           &none                 &none            &kp END          &kp PRINTSCREEN  &kp HOME         &kp KP_NUMLOCK   &trans
+&trans           &kp RCTRL        &kp RALT         &kp RGUI         &none            &none                 &none            &none            &kp LGUI         &kp LALT         &kp LCTRL        &trans
+                                                   &trans           &trans           &trans                &trans           &trans
+                                                                    &trans           &trans                &trans
+            >;
+        };
+
+        layer_19 {
+            bindings = <
+&trans           &kp F12          &kp F11          &kp F10          &kp F9           &none                 &none            &kp RBKT         &kp SQT          &kp LBKT         &kp INSERT       &trans
+&trans           &kp F8           &kp F7           &kp F6           &kp F5           &none                 &none            &kp PERIOD       &kp SEMI         &kp COMMA        &kp MINUS        &trans
+&trans           &kp F4           &kp F3           &kp F2           &kp F1           &none                 &none            &kp FSLH         &kp GRAVE        &kp BSLH         &kp EQUAL        &trans
+&trans           &trans           &trans           &trans           &none            &none                 &none            &none            &trans           &trans           &trans           &trans
+                                                   &none            &trans           &trans                &trans           &trans
+                                                                    &none            &trans                &trans
+            >;
+        };
     };
 };
