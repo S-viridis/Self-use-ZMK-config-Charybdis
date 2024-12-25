@@ -145,12 +145,12 @@
 
         layer_11 {
             bindings = <
-&trans  &none  &none  &none  &none   &none     &none   &none   &none  &none  &none  &none
-&trans  &none  &none  &none  &none   &none     &none   &none   &none  &none  &none  &none
-&trans  &none  &none  &none  &none   &none     &none   &none   &none  &none  &none  &none
-&trans  &none  &none  &none  &none   &none     &none   &none   &none  &none  &none  &none
-                      &none  &trans  &trans    &trans  &trans
-                             &none   &trans    &trans
+&trans  &kp N0     &kp N1  &kp N2  &kp N3     &kp N4    &none   &trans  &trans  &trans  &trans  &trans
+&trans  &kp GRAVE  &kp Q   &kp W   &kp E      &kp R     &none   &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL  &kp A   &kp S   &kp D      &kp F     &none   &trans  &trans  &trans  &trans  &trans
+&kp B   &kp LALT   &kp Z   &kp X   &kp C      &kp V     &none   &none   &trans  &trans  &trans  &trans
+                           &kp G   &kp SPACE  &mo 15    &trans  &trans
+                                   &kp T      &mo 14    &trans
             >;
         };
 
@@ -160,41 +160,42 @@
 &trans     &kp T   &kp Q   &kp W   &kp E      &kp R     &none   &trans  &trans  &trans  &trans  &trans
 &trans     &kp G   &kp A   &kp S   &kp D      &kp F     &none   &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &kp B   &kp Z   &kp X   &kp C      &kp V     &none   &none   &trans  &trans  &trans  &trans
-                           &kp P   &kp SPACE  &mo 13    &trans  &trans
-                                   &kp H      &mo 15    &trans
+                           &kp I   &kp SPACE  &mo 13    &trans  &trans
+                                   &mo 14     &mo 15    &trans
             >;
         };
 
         layer_13 {
             bindings = <
-&trans  &kp N0         &kp N1  &kp N2    &kp N3     &kp N4    &none   &trans  &trans  &trans  &trans  &trans
-&trans  &kp I          &kp U   &kp W     &kp O      &kp R     &none   &trans  &trans  &trans  &trans  &trans
-&trans  &kp PAGE_UP    &kp A   &kp S     &kp D      &kp F     &none   &trans  &trans  &trans  &trans  &trans
-&kp M   &kp PAGE_DOWN  &kp J   &kp K     &kp L      &kp V     &none   &none   &trans  &trans  &trans  &trans
-                               &kp HOME  &kp SPACE  &none     &trans  &trans
-                                         &kp END    &none     &trans
+&trans   &kp N5         &kp N6  &kp N7    &kp N8     &kp N9    &none   &trans  &trans  &trans  &trans  &trans
+&trans   &kp Y          &kp U   &kp W     &kp O      &kp P     &none   &trans  &trans  &trans  &trans  &trans
+&trans   &kp PAGE_UP    &kp A   &kp S     &kp D      &kp H     &none   &trans  &trans  &trans  &trans  &trans
+&trans   &kp PAGE_DOWN  &kp J   &kp K     &kp L      &kp N     &none   &none   &trans  &trans  &trans  &trans
+                                &kp M     &kp SPACE  &none     &trans  &trans
+                                          &none      &none     &trans
             >;
         };
 
         layer_14 {
             bindings = <
-&trans  &kp N0     &kp N1  &kp N2  &kp N3     &kp N4    &none   &trans  &trans  &trans  &trans  &trans
-&trans  &kp GRAVE  &kp Q   &kp W   &kp E      &kp R     &none   &trans  &trans  &trans  &trans  &trans
-&trans  &kp LCTRL  &kp A   &kp S   &kp D      &kp F     &none   &trans  &trans  &trans  &trans  &trans
-&kp B   &kp LALT   &kp Z   &kp X   &kp C      &kp V     &none   &none   &trans  &trans  &trans  &trans
-                           &kp G   &kp SPACE  &mo 15    &trans  &trans
-                                   &kp T      &kp H     &trans
+&trans   &none    &none     &none      &none     &none     &none   &trans  &trans  &trans  &trans  &trans
+&trans   &kp DEL  &kp LBKT  &kp RBKT   &kp BLSH  &kp P     &none   &trans  &trans  &trans  &trans  &trans
+&trans   &kp HOME &kp SEMI  &kp SQT    &kp GRAVE &kp H     &none   &trans  &trans  &trans  &trans  &trans
+&trans   &kp END  &kp COMMA &kp PERIOD &kp FLSH  &kp N     &none   &none   &trans  &trans  &trans  &trans
+                            &kp M     &kp SPACE  &none     &trans  &trans
+                                      &none      &none     &trans
             >;
         };
 
+
         layer_15 {
             bindings = <
-&trans  &none   &none    &none    &none    &none    &none   &trans  &trans  &trans  &trans  &trans
-&trans  &none   &kp F4   &kp F3   &kp F2   &none    &none   &trans  &trans  &trans  &trans  &trans
-&trans  &kp F5  &kp F8   &kp F7   &kp F6   &none    &none   &trans  &trans  &trans  &trans  &trans
-&kp N   &kp F9  &kp F12  &kp F11  &kp F10  &none    &none   &none   &trans  &trans  &trans  &trans
-                         &none    &trans   &none    &trans  &trans
-                                  &none    &none    &trans
+&trans  &kp N5  &kp N6   &kp N7   &kp N8   &kp N9     &none   &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F4   &kp F3   &kp F2   &kp P      &none   &trans  &trans  &trans  &trans  &trans
+&trans  &kp F5  &kp F8   &kp F7   &kp F6   &kp L      &none   &trans  &trans  &trans  &trans  &trans
+&trans  &kp F9  &kp F12  &kp F11  &kp F10  &kp M      &none   &none   &trans  &trans  &trans  &trans
+                         &kp H    &trans   &none      &trans  &trans
+                                  &none    &none      &trans
             >;
 
             trackball-bindings = <&tsl>;
