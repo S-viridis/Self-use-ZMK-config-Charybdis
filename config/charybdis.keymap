@@ -1,4 +1,4 @@
-//#include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/backlight.h>
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
@@ -112,12 +112,12 @@
 
         layer_8 {
             bindings = <
-&trans  &none  &none  &none  &none  &none     &none   &none  &none  &none  &none  &trans
-&trans  &none  &none  &none  &none  &none     &none   &none  &none  &none  &none  &trans
-&trans  &none  &none  &none  &none  &none     &none   &none  &none  &none  &none  &trans
-&trans  &none  &none  &none  &none  &none     &none   &none  &none  &none  &none  &trans
-                      &none  &trans &trans    &trans  &trans
-                             &none  &trans    &trans
+&trans  &none       &bl BL_INC  &bl BL_CYCLE  &bl BL_DEC  &none     &none   &none  &none  &none  &none  &trans
+&trans  &bl BL_TOG  &none       &none         &none       &none     &none   &none  &none  &none  &none  &trans
+&trans  &none       &none       &none         &none       &none     &none   &none  &none  &none  &none  &trans
+&trans  &none       &none       &none         &none       &none     &none   &none  &none  &none  &none  &trans
+                                &none         &trans      &trans    &trans  &trans
+                                              &none       &trans    &trans
             >;
         };
 
